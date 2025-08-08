@@ -1,28 +1,28 @@
-# Sysdig Hands-on EKS Security Workshop
+# Sysdig ハンズオン EKS セキュリティ ワークショップ
 
-Welcome to Sysdig's hands-on workshop. In this workshop, you'll experience some of the security challenges of Kubernetes/EKS first-hand - and how Sysdig can help.
+Sysdigのハンズオンワークショップへようこそ。このワークショップでは、Kubernetes/EKSのセキュリティ課題を実際に体験し、Sysdigがどのように役立つかを学びます。
 
-We have provisioned a separate EKS cluster and EC2 instance (to serve as a jumpbox/bastion) for each of you. You'll connect to that jumpbox via AWS SSM Session Manager in your browser - and it is preloaded with all the tools that you'll need to interact with your EKS cluster and work through today's labs.
+参加者の皆様には、それぞれ個別のEKSクラスターとEC2インスタンス（ジャンプボックスとして機能）をご用意しています。ブラウザからAWS SSMセッションマネージャーを使用してこのジャンプボックスに接続します。ジャンプボックスには、EKSクラスターの操作と本日のラボの進め方に必要なツールがすべて準備されています。
 
-We have also provisioned a user for you within Sysdig Secure. While this Sysdig SaaS tenancy is shared between everyone in the workshop today, your login is tied to a team within it which, in turn, is filtered (via a Zone) to only show you information about your EKS cluster/environment.
+Sysdig Secure 内にユーザーをプロビジョニングしました。この Sysdig SaaS アカウントは本日のワークショップ参加者全員で共有されますが、ログイン情報はその中のチームに紐付けられ、ゾーンを介してフィルタリングされ、EKS クラスター/環境に関する情報のみが表示されます。
 
-## Getting Started
+## はじめる
 
-1. [Logging into your environment](modules/logging-in-to-your-environment.md)
+1. [ラボ環境へのログイン](modules/logging-in-to-your-environment.md)
 
-## Modules
+## モジュール
 
-1. [Runtime Threat Detection and Prevention (Workload/Kubernetes)](modules/runtime-threat-detection-workload.md)
-2. [Runtime Threat Detection and Prevention (Cloud/AWS)](modules/runtime-threat-detection-cloud.md)
-3. [Host and Container Vulnerability Management](modules/vulnerability-management.md)
-4. [Kubernetes Posture/Compliance](modules/kubernetes-posture-management.md)
-5. [Risks and Attack Path](modules/risks-and-attack-path.md)
-6. [Kubernetes native firewall (NetworkPolicies)](modules/kubernetes-network-policies.md)
+1. [ランタイム脅威の検知と防御（ワークロード/Kubernetes）](modules/runtime-threat-detection-workload.md)
+2. [ランタイム脅威の検知と防御 (クラウド/AWS)](modules/runtime-threat-detection-cloud.md)
+3. [ホストとコンテナの脆弱性管理](modules/vulnerability-management.md)
+4. [Kubernetesポスチャー/コンプライアンス](modules/kubernetes-posture-management.md)
+5. [Riskとアタックパス](modules/risks-and-attack-path.md)
+6. [Kubernetesネイティブ ファイアウォール (ネットワークポリシー)](modules/kubernetes-network-policies.md)
 
-## Conclusion
+## 終わりに
 
-This was just a brief introduction of some of the many capabilities that Sysdig offers customers to help with securing your Kubernetes environments, including AWS EKS, as-a-service.
+これは、AWS EKS などの Kubernetes 環境をサービスとして保護するために Sysdig が顧客に提供する多くの機能のうち、ほんの一部を簡単に紹介しただけです。
 
-We'd love to show you more about what Sysdig can do for you in a free trial in your own environment. Reach out to your facilitator for details.
+Sysdig がお客様の環境でどのようなメリットをもたらすのか、無料トライアルで詳しくご説明いたします。詳細については、担当のファシリテーターまでお問い合わせください。
 
-Thank you for coming!
+ご来場ありがとうございました！
